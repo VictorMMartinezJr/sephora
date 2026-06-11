@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+body {
+  background: linear-gradient(to right, #fb91c8, #ffc0cb 90%);
+}
+
+@theme {
+  --breakpoint-xs: 375px;
+}
+
+.product-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
