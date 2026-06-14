@@ -23,7 +23,7 @@ const Reviews = () => {
   return (
     <section
       id="reviews__section"
-      className="border-2 snap-start min-screen-height flex flex-col justify-center items-center overflow-hidden"
+      className="snap-start min-screen-height flex flex-col justify-center items-center overflow-hidden"
     >
       {/* --- Title --- */}
       <div className="products__header text-center flex flex-col flex-0 justify-center items-center gap-1 ">

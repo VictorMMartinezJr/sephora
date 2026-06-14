@@ -35,7 +35,7 @@ const Products = () => {
   return (
     <section
       id="products__section"
-      className="snap-start h-screen flex flex-col justify-center items-center overflow-hidden"
+      className="snap-start h-auto flex flex-col justify-center items-center overflow-hidden"
     >
       {/* --- Title --- */}
       <div className="products__header text-center flex flex-col justify-center items-center gap-1 ">

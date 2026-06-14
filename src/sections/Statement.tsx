@@ -8,7 +8,7 @@ const Statement = () => {
       duration: 0.5,
       ease: "power2.inOut",
       scrollTrigger: {
-        trigger: ".statement__section",
+        trigger: "#statement__section",
         start: "top 50%",
         toggleActions: "play none none none",
         scroller: "#main-container",
@@ -53,7 +53,10 @@ const Statement = () => {
   });
 
   return (
-    <section className="statement__section snap-start relative min-h-dvh flex flex-col justify-center items-center text-rose-950 gap-5">
+    <section
+      id="statement__section"
+      className="snap-start relative min-h-dvh flex flex-col justify-center items-center text-rose-950 gap-5"
+    >
       {/* --- Text --- */}
       <div className="h-auto tracking-tighter text-center flex flex-col justify-center items-center text-4xl xs:text-5xl sm:text-6xl xl:text-8xl font-bold">
         <h2 className="statement__h2--1">
