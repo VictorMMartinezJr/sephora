@@ -157,3 +157,63 @@ export const BRANDS_DATA: Brand[] = [
     alt: "nyc",
   },
 ];
+
+{
+  /* --- Footer --- */
+}
+interface regularLink {
+  text: string;
+}
+export const QUICK_LINKS: regularLink[] = [
+  {
+    text: "HOME",
+  },
+  {
+    text: "ABOUT",
+  },
+  {
+    text: "SERVICES",
+  },
+  {
+    text: "BLOG",
+  },
+  {
+    text: "CONTACT US",
+  },
+];
+
+export const TOP_CATEGORIES: regularLink[] = [
+  {
+    text: "MAKEUP",
+  },
+  {
+    text: "FRAGRANCE",
+  },
+  {
+    text: "SKINCARE",
+  },
+  {
+    text: "COLLECTIONS",
+  },
+];
+
+import { IoMdPin, IoIosMail } from "react-icons/io";
+import { FaPhone } from "react-icons/fa";
+interface contactLink {
+  icon: React.ReactNode;
+  text: string;
+}
+export const CONTACT_LINKS: contactLink[] = [
+  {
+    icon: <IoMdPin />,
+    text: "570 Camden Street, Verdi NV, 89439",
+  },
+  {
+    icon: <IoIosMail />,
+    text: "contact@sephora.com",
+  },
+  {
+    icon: <FaPhone />,
+    text: "+1 (470) 823-7609",
+  },
+];
