@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
-[id] {
+#products__section,
+#reviews__section,
+#lipstick__section,
+#featuredBrands__section {
   scroll-margin-top: 80px;
 }
 
