@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+[id] {
+  scroll-margin-top: 80px;
+}
+
 body {
   background: linear-gradient(to right, #fb91c8, #ffc0cb 90%);
 }
