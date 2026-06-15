@@ -131,3 +131,29 @@ export const REVIEWS_DATA: Review[] = [
     positionX: "xl:translate-x-45 2xl:translate-x-90",
   },
 ];
+
+{
+  /* --- Brands --- */
+}
+interface Brand {
+  imgSrc: string;
+  alt: string;
+}
+export const BRANDS_DATA: Brand[] = [
+  {
+    imgSrc: "assets/brand-loreal.png",
+    alt: "LoReal",
+  },
+  {
+    imgSrc: "assets/brand-milk.png",
+    alt: "Milk",
+  },
+  {
+    imgSrc: "assets/brand-nars.png",
+    alt: "Nras",
+  },
+  {
+    imgSrc: "assets/brand-nyc.png",
+    alt: "nyc",
+  },
+];
