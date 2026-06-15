@@ -26,7 +26,7 @@ const FeaturedBrands = () => {
   return (
     <section
       id="featuredBrands__section"
-      className="my-18 xl:my-36 snap-start min-screen-height flex flex-col justify-center items-center overflow-hidden"
+      className="my-18 xl:my-36 snap-start flex flex-col justify-center items-center overflow-hidden"
     >
       {/* --- Title --- */}
 
