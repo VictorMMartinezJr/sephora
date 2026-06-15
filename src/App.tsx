@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import Statement from "./sections/Statement";
 import Products from "./sections/Products";
+import Reviews from "./sections/Reviews";
+import Lipstick from "./sections/Lipstick";
+import FeaturedBrands from "./sections/FeaturedBrands";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,6 +20,10 @@ const App = () => {
       <Hero />
       <Statement />
       <Products />
+      <Reviews />
+      <Lipstick />
+      <FeaturedBrands />
+      <Footer />
     </main>
   );
 };
