@@ -1,5 +1,3 @@
-import { IoMdPin, IoIosMail } from "react-icons/io";
-import { FaPhone } from "react-icons/fa";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
 import FooterLinks from "./FooterLinks";
